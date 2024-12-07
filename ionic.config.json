@@ -1,0 +1,7 @@
+{
+  "name": "PelatihanIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
