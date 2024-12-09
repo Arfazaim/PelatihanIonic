@@ -1,20 +1,40 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" class="ion-header">
   <ion-toolbar>
+    <div class="header-content">
+      <ion-buttons slot="start">
+        <ion-button defaultHref="/login">
+          <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
+        </ion-button>
+      </ion-buttons>
     <ion-title>
-      Blank
+      Institut Teknologi Sepuluh Nopember
     </ion-title>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <img alt="Silhouette of mountains" src="assets/Logo itspku.png" />
+    <ion-card-header>
+      <ion-card-title>Informatika</ion-card-title>
+      <ion-card-subtitle>Informasi Teknologi</ion-card-subtitle>
+    </ion-card-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-card-content>
+      Teknologi yang digunakan adalah teknologi komputer dan perangkat lunak
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="assets/Logo itspku.png" />
+    <ion-card-header>
+      <ion-card-title>keperawatan</ion-card-title>
+      <ion-card-subtitle>keperawatan</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      keperawatan
+    </ion-card-content>
+  </ion-card>
 </ion-content>

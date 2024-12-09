@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+header{
+  background-color: white;
+  color: black;
+}
+
+ion-card img{
+  width: 100%;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 18px; 
+  font-weight: bold; 
+}
